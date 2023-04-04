@@ -1,0 +1,5 @@
+inv = float(input("Ingrese el numero de inversión:"))
+inter = float(input("Ingrese el porcentaje de interés:"))
+anios = int(input("Ingrese el numero de años:"))
+cap = round(inv + ((inv * inter/100) * anios), 2)
+print(cap)
